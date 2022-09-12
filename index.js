@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
 import { serve } from './lib/server.js';
-
 dotenv.config();
 
 serve(
